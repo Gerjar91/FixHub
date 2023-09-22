@@ -41,10 +41,11 @@ const styles = StyleSheet.create({
     image: {
         width: 300,
         height: 200,
+        marginTop:100
     },
     title: {
-        color: "#FF2D5A",
-        fontSize: 30,
+        color: "white",
+        fontSize: 40,
         fontWeight: "900",
         marginBottom:50
 
@@ -52,12 +53,12 @@ const styles = StyleSheet.create({
     button: {
         width: "60%",
         height: "6%",
-        margin: 20,
-        backgroundColor: "#E8DEE9",
-        borderRadius: 25,
+        margin: 10,
+        backgroundColor: "#FF2D5A",
+        borderRadius: 8,
         justifyContent: "center",
         alignItems: "center",
-        elevation:8,
+        elevation:2,
         shadowColor: 'rgba(255, 195, 255,1)',
 
 
@@ -66,5 +67,6 @@ const styles = StyleSheet.create({
     textButton: {
         fontWeight: "600",
         fontSize: 19,
+        color:"white"
     }
 });

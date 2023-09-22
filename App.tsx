@@ -21,11 +21,22 @@ export default function App() {
         <Stack.Screen
           name="Home"
           component={Home}
-          />
+          options={{
+            title: "",
+            headerStyle:{height:80,elevation:0},
+            headerTitleStyle:{color:"white"},
+          }}
+        />
         <Stack.Screen
           name="Workers"
           component={Workers}
-          />
+          options={{
+            headerBackTitle: "foli",
+            title: "",
+            headerStyle:{height:80,elevation:0}
+            
+          }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );

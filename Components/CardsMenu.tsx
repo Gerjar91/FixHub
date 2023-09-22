@@ -12,15 +12,16 @@ function CardsMenu({ image, name,navigation }: any) {
     }
 
     return (
+        <SafeAreaView >
         <TouchableOpacity
-            onPress={onCLick}>
-            <SafeAreaView style={styles.containerPage}>
+            onPress={onCLick}
+            style={styles.containerPage}>
                 <View style={styles.container}>
                     <Image source={{ uri: image }} style={styles.image} />
                     <Text style={styles.title}>{name}</Text>
                 </View>
-            </SafeAreaView>
         </TouchableOpacity>
+            </SafeAreaView>
     );
 }
 
@@ -37,6 +38,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#6649B8',
         alignItems: 'center',
         justifyContent: "flex-end",
+        elevation:2
     },
     container: {
         flex: 1,
