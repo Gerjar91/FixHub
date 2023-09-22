@@ -1,23 +1,36 @@
 import React from 'react'
 import { Image, SafeAreaView, View, StyleSheet, Text, TouchableOpacity } from 'react-native'
+import { LinearGradient } from 'expo-linear-gradient';
 
-function Landing({navigation}:any) {
+function Landing({ navigation }: any) {
     return (
         <SafeAreaView style={styles.containerPage}>
-            <View style={styles.container}>
-                <Text style={styles.title}>¿ Te interesa ?  </Text>
-                <TouchableOpacity
-                    style={styles.button}
-                    onPress={()=>   navigation.navigate('Home')}>
-                    <Text style={styles.textButton}>Buscar servicios</Text>
-                </TouchableOpacity>
-                <TouchableOpacity
-                    style={styles.button}
-                    onPress={()=>   navigation.navigate('Home')}>
-                    <Text  style={styles.textButton}>Ofrecer servicios</Text>
-                </TouchableOpacity>
-                <Image source={require('../assets/FixHubSplash.png')} style={styles.image} />
-            </View>
+            <LinearGradient
+                colors={['#351A81', '#2D1D5B']}
+                start={{ x: 0, y: 0 }}
+                end={{ x: 1, y: 1 }}
+                style={styles.linearGradient}
+            >
+                <View style={styles.container}>
+                    <Text style={styles.title}>¿ Te interesa ?  </Text>
+                    <TouchableOpacity
+                        style={styles.button}
+                        onPress={() => navigation.navigate('Home')}>
+                        <Text style={styles.textButton}>Buscar servicios</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                        style={styles.button}
+                        onPress={() => navigation.navigate('Home')}>
+                        <Text style={styles.textButton}>Ofrecer servicios</Text>
+                    </TouchableOpacity>
+                    <Image source={require('../assets/FixHubSplash.png')} style={styles.image} />
+                </View>
+
+            </LinearGradient>
+
+
+
+
         </SafeAreaView>
     )
 }
@@ -37,17 +50,22 @@ const styles = StyleSheet.create({
         alignItems: "center",
         justifyContent: "center",
     },
+    linearGradient:{
+flex:1,
+width: "100%",
+
+    },
 
     image: {
         width: 300,
         height: 200,
-        marginTop:100
+        marginTop: 100
     },
     title: {
         color: "white",
-        fontSize: 40,
+        fontSize: 30,
         fontWeight: "900",
-        marginBottom:50
+        marginBottom: 30
 
     },
     button: {
@@ -58,7 +76,7 @@ const styles = StyleSheet.create({
         borderRadius: 8,
         justifyContent: "center",
         alignItems: "center",
-        elevation:2,
+        elevation: 2,
         shadowColor: 'rgba(255, 195, 255,1)',
 
 
@@ -67,6 +85,6 @@ const styles = StyleSheet.create({
     textButton: {
         fontWeight: "600",
         fontSize: 19,
-        color:"white"
+        color: "white"
     }
 });

@@ -1,10 +1,11 @@
 import React from 'react'
 import { Image, Text, TouchableOpacity, View } from 'react-native'
 import { SafeAreaView, StyleSheet } from 'react-native'
+import DetailWoker from './DetailWorker';
+import DetailWorker from './DetailWorker';
 
-function CardsWorkers({ dataWorker }: any) {
+function CardsWorkers({ dataWorker , setModalVisible,setDataWorker}: any) {
 
-    console.log(dataWorker);
     const renderStars = (dataWorker: any) => {
         const stars = [];
         for (let i = 0; i < dataWorker.valoracion; i++) {
@@ -17,11 +18,15 @@ function CardsWorkers({ dataWorker }: any) {
         return stars;
     };
 
+    const handleOpenModal = () => {
+        setModalVisible(true);
+        setDataWorker(dataWorker)
+      };
+
     return (
         <SafeAreaView style={styles.containerPage}>
-        <TouchableOpacity
-            onPress={() => { }}
-            
+            <TouchableOpacity
+                onPress={handleOpenModal}
             >
                 <View style={styles.container}>
                     <Image source={{ uri: dataWorker.image }} style={styles.carouselimage} />
@@ -40,8 +45,8 @@ function CardsWorkers({ dataWorker }: any) {
                     </View>
 
                 </View>
-        </TouchableOpacity>
-            </SafeAreaView>
+            </TouchableOpacity>
+        </SafeAreaView>
     );
 }
 
@@ -56,11 +61,11 @@ const styles = StyleSheet.create({
         paddingLeft: 10,
         paddingRight: 10,
         backgroundColor: '#fff',
-                alignItems: 'center',
+        alignItems: 'center',
         justifyContent: "flex-end",
-        elevation:4
+        elevation: 4
 
-     
+
 
 
     },
@@ -71,7 +76,7 @@ const styles = StyleSheet.create({
         width: 350,
         alignItems: "center",
         justifyContent: "flex-start",
-     
+
 
     },
     image: {

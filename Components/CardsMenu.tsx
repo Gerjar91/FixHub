@@ -1,8 +1,9 @@
 import React from 'react'
 import { Image, Text, TouchableOpacity, View } from 'react-native'
 import { SafeAreaView, StyleSheet } from 'react-native'
+import { LinearGradient } from 'expo-linear-gradient';
 
-function CardsMenu({ image, name,navigation }: any) {
+function CardsMenu({ image, name, navigation }: any) {
 
 
     const onCLick = () => {
@@ -13,15 +14,22 @@ function CardsMenu({ image, name,navigation }: any) {
 
     return (
         <SafeAreaView >
-        <TouchableOpacity
-            onPress={onCLick}
-            style={styles.containerPage}>
-                <View style={styles.container}>
-                    <Image source={{ uri: image }} style={styles.image} />
-                    <Text style={styles.title}>{name}</Text>
-                </View>
-        </TouchableOpacity>
-            </SafeAreaView>
+                <LinearGradient
+                    colors={['#351A81','#2D1D5B']}
+                    start={{ x: 0, y: 0 }}
+                    end={{ x: 1, y: 0 }}
+                    style={styles.linearGradient}                    
+                >
+            <TouchableOpacity
+                onPress={onCLick}
+                style={styles.containerPage}>
+                    <View style={styles.container}>
+                        <Image source={{ uri: image }} style={styles.image} />
+                        <Text style={styles.title}>{name}</Text>
+                    </View>
+            </TouchableOpacity>
+                </LinearGradient>
+        </SafeAreaView>
     );
 }
 
@@ -29,16 +37,18 @@ export default CardsMenu
 
 const styles = StyleSheet.create({
     containerPage: {
-        marginTop: 10,
         width: "100%",
-        borderRadius: 20,
         height: 100,
         paddingLeft: 30,
         paddingRight: 30,
-        backgroundColor: '#6649B8',
         alignItems: 'center',
         justifyContent: "flex-end",
-        elevation:2
+    },
+    linearGradient:{
+        marginTop: 10,
+        borderRadius: 20,
+        elevation:4
+
     },
     container: {
         flex: 1,

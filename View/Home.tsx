@@ -37,7 +37,7 @@ const Home = ({ navigation }: any) => {
                         renderItem={(el) => (
                             <View style={styles.carouselItem}>
                                 <View style={styles.carouselCard}>
-                                    <View style={{display:"flex",flexDirection:"row",marginBottom:10,alignItems:"center"}}>
+                                    <View style={{display:"flex",flexDirection:"row",marginBottom:10,alignItems:"flex-end"}}>
                                     <Image source={{ uri: el.item.image }} style={styles.carouselimage} />
                                     <Text style={styles.carouselName}>{el.item.name}:</Text>
                                     </View>
@@ -135,7 +135,7 @@ const styles = StyleSheet.create({
     carouselimage: {
         width: 40,
         height: 40,
-        borderRadius:100,
+        borderRadius:10,
         marginRight:10
     }
 });
