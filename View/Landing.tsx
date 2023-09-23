@@ -8,12 +8,14 @@ function Landing({ navigation }: any) {
     return (
         <SafeAreaView style={styles.containerPage}>
             <LinearGradient
-                colors={['#351A81', '#2D1D5B']}
+                colors={['#351A81', '#1F1146']}
                 start={{ x: 0, y: 0 }}
                 end={{ x: 1, y: 1 }}
                 style={styles.linearGradient}
             >
                 <View style={styles.container}>
+                    <Text style={styles.title2}>Bienvenido a </Text>
+                    <Image source={require('../assets/FixHubSplash.png')} style={styles.image} />
                     <Text style={styles.title}>¿ Te interesa ?  </Text>
                     <TouchableOpacity
                         style={styles.button}
@@ -25,7 +27,6 @@ function Landing({ navigation }: any) {
                         onPress={() => navigation.navigate('Home')}>
                         <Text style={styles.textButton}>Ofrecer servicios</Text>
                     </TouchableOpacity>
-                    <Image source={require('../assets/FixHubSplash.png')} style={styles.image} />
                 </View>
 
             </LinearGradient>
@@ -61,13 +62,15 @@ width: "100%",
     image: {
         width: 300,
         height: 200,
-        marginTop: 100
+        marginTop: 10
     },
     title: {
         color: "white",
-        fontSize: 30,
-        fontWeight: "900",
-        marginBottom: 30
+        fontSize: 25,
+        fontWeight: "400",
+        marginBottom: 30,
+        marginTop:100,
+        fontFamily: 'Montserrat',
 
     },
     button: {
@@ -85,8 +88,17 @@ width: "100%",
     },
 
     textButton: {
-        fontWeight: "600",
+        fontWeight: "500",
         fontSize: 19,
-        color: "white"
+        color: "white",
+        fontFamily: 'Montserrat',
+
+    },
+    title2:{
+        color:"white",
+        marginBottom:-60,
+right:90,
+fontFamily: 'Montserrat',
+
     }
 });

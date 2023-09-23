@@ -26,7 +26,7 @@ console.log(isModalVisible);
                 <View style={styles.header}>
                     <View>
                         <Text style={styles.title}>Hay {workersData.length} {params}S </Text>
-                        <Text style={styles.title2}>cerca de tu ubicación !!</Text>
+                        <Text style={styles.title2}>cerca de tu ubicación !! </Text>
                     </View>
                     <Image source={{ uri: imageJob?.image }} style={styles.image} />
                 </View>
@@ -67,10 +67,12 @@ const styles = StyleSheet.create({
         paddingBottom: 30
     },
     title: {
-        fontSize: 21,
+        fontSize: 20,
         marginTop: 10,
         color: "#FF2D5A",
-        fontWeight: "700"
+        fontWeight: "400",
+        fontFamily: 'Montserrat',
+
     },
     title2: {
         fontSize: 17,

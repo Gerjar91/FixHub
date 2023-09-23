@@ -4,7 +4,7 @@ import { SafeAreaView, StyleSheet } from 'react-native'
 import DetailWoker from './DetailWorker';
 import DetailWorker from './DetailWorker';
 
-function CardsWorkers({ dataWorker , setModalVisible,setDataWorker}: any) {
+function CardsWorkers({ dataWorker, setModalVisible, setDataWorker }: any) {
 
     const renderStars = (dataWorker: any) => {
         const stars = [];
@@ -21,9 +21,9 @@ function CardsWorkers({ dataWorker , setModalVisible,setDataWorker}: any) {
     const handleOpenModal = () => {
         setModalVisible(true);
         setDataWorker(dataWorker)
-      };
+    };
 
-      console.log(dataWorker.available);
+    console.log(dataWorker.available);
     return (
         <SafeAreaView style={styles.containerPage}>
             <TouchableOpacity
@@ -33,21 +33,26 @@ function CardsWorkers({ dataWorker , setModalVisible,setDataWorker}: any) {
                     <Image source={{ uri: dataWorker.image }} style={styles.carouselimage} />
 
                     <View style={{ flexDirection: "column", justifyContent: "flex-end" }}>
-                        <View style={{flexDirection:"row", alignItems:"flex-end", justifyContent:"space-between"}}>
+                        <View style={{ flexDirection: "row", alignItems: "flex-end", justifyContent: "space-between" }}>
 
-                        <Text style={styles.title}>{dataWorker.name} {dataWorker.lastName} </Text>
-                        {dataWorker.available === "true"?  (  <Text style={{fontSize:12}}>🟢  24/7</Text>):null}
-                    
+                            <Text style={styles.title}>{dataWorker.name} {dataWorker.lastName} </Text>
+                            {dataWorker.available === "true" ? (
+                            <Text style={{
+                                fontSize: 12}}>
+                                    <Text style={{fontSize:9,}}>🟢</Text>  24/7</Text>) : null}
+
                         </View>
                         <View style={styles.horizontalLine} />
                         <View style={{ flexDirection: "row", justifyContent: "space-between", alignItems: "center", width: 220 }}>
 
-                            <Text style={{}}>{dataWorker.job} </Text>
+                            <Text style={{
+                                    fontFamily: 'Montserrat',
+                                }}>{dataWorker.job} </Text>
                             <Text style={{}}>{renderStars(dataWorker)} </Text>
                         </View>
-                        <Text style={{ fontWeight: "800", fontSize: 17, color: "#FF2D5A" }}>{dataWorker.hourlyRate}.00 $ hs </Text>
-                        <Text style={{ fontWeight: "800" }}>{dataWorker.experience} contrataciones en la app</Text>
-                        <Text style={{ fontWeight: "500" }}>{dataWorker.location} km de distancia</Text>
+                        <Text style={{ fontWeight: "800", fontSize: 17, color: "#FF2D5A" }}>$ {dataWorker.hourlyRate} /Hs </Text>
+                        <Text style={{ fontWeight: "500" }}>{dataWorker.experience} contrataciones en la app</Text>
+                        <Text style={{ fontWeight: "900" }}>{dataWorker.location} km de distancia</Text>
                     </View>
 
                 </View>
@@ -94,6 +99,7 @@ const styles = StyleSheet.create({
         color: "#351A81",
         fontSize: 19,
         fontWeight: "900",
+
 
     }, carouselimage: {
         width: 110,

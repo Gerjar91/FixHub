@@ -4,8 +4,6 @@ import { Linking } from 'react-native';
 
 function DetailWorker({ setModalVisible, dataWorker }: any) {
     const toggleModal = () => {
-        console.log("siiiiiii");
-
         setModalVisible(false);
     };
 
@@ -43,7 +41,7 @@ function DetailWorker({ setModalVisible, dataWorker }: any) {
     return (
         <View style={styles.container}>
             <TouchableOpacity onPress={toggleModal} style={styles.buttonClose}>
-                <Text style={{ color: "white", fontSize: 18 }}>X</Text>
+                <Text style={{ color: "white", fontSize: 14,fontWeight:"900" }}>X</Text>
             </TouchableOpacity>
             <Image source={{ uri: dataWorker.image }} style={styles.carouselimage} />
 
@@ -80,7 +78,8 @@ function DetailWorker({ setModalVisible, dataWorker }: any) {
             <View style={styles.horizontalLine} />
             <View style={{ flexDirection: "row", justifyContent: "center", width: "100%", alignItems: "flex-end", alignContent: "center" }}>
 
-                <Text style={{}}>{dataWorker.description} </Text>
+                <Text style={{     
+}}>{dataWorker.description} </Text>
 
             </View>
 
@@ -106,7 +105,7 @@ const styles = StyleSheet.create({
         display: 'flex',
         flexDirection: "column",
         width: "90%",
-        height: "80%",
+        height: "78%",
         alignItems: "center",
         justifyContent: "flex-start",
         backgroundColor: "white",
@@ -147,8 +146,8 @@ const styles = StyleSheet.create({
         marginVertical: 6,        // Espacio vertical alrededor de la línea
     },
     buttonClose: {
-        width: 35,
-        height: 35,
+        width: 30,
+        height: 30,
         position:"absolute",
         zIndex:100,
         left:270,
@@ -156,11 +155,11 @@ const styles = StyleSheet.create({
         justifyContent: "center",
         alignItems: "center",
         borderRadius: 20,
-        marginTop:5,
+        marginTop:9,
         elevation:3
     },
     buttoncontact: {
-        width: "80%",
+        width: "70%",
         height: 50,
         backgroundColor: "#351A81",
         justifyContent: "center",

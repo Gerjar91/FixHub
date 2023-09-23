@@ -73,7 +73,7 @@
             "id": 1,
             
             "name": "Juan",
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"true",
             "lastName": "González",
             "inLine": "false",
@@ -89,7 +89,7 @@
         {
             
             "id": 2,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"false",
             "name": "Fede",
             "lastName": "López",
@@ -106,7 +106,7 @@
         {
             
             "id": 3,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"true",
             "name": "Carlos",
             "lastName": "Martínez",
@@ -123,7 +123,7 @@
         {
             
             "id": 4,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"false",
             "name": "Juan",
             "lastName": "Rodríguez",
@@ -140,7 +140,7 @@
         {
             
             "id": 5,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"false",
             "name": "José",
             "lastName": "Pérez",
@@ -157,7 +157,7 @@
         {
             
             "id": 6,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"false",
             "name": "Laura",
             "lastName": "Hernández",
@@ -174,7 +174,7 @@
         {
             
             "id": 7,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"true",
             "name": "Javier",
             "lastName": "Díaz",
@@ -191,7 +191,7 @@
         {
             
             "id": 8,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"false",
             "name": "Carmen",
             "lastName": "Sánchez",
@@ -208,7 +208,7 @@
         {
             
             "id": 9,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"false",
             "name": "Pedro",
             "lastName": "Gómez",
@@ -225,7 +225,7 @@
         {
             
             "id": 10,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"true",
             "name": "Isabel",
             "lastName": "Fernández",
@@ -242,7 +242,7 @@
         {
             
             "id": 11,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"false",
             "name": "Fernando",
             "lastName": "Ramírez",
@@ -259,7 +259,7 @@
         {
             
             "id": 12,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"false",
             "name": "Luisa",
             "lastName": "Torres",
@@ -276,7 +276,7 @@
         {
             
             "id": 13,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"true",
             "name": "Roberto",
             "lastName": "Luna",
@@ -293,7 +293,7 @@
         {
             
             "id": 14,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"false",
             "name": "Sevilla",
             "lastName": "Dominguez",
@@ -310,7 +310,7 @@
         {
             
             "id": 15,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"false",
             "name": "Hugo",
             "lastName": "Mendoza",
@@ -327,7 +327,7 @@
         {
             
             "id": 16,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"true",
             "name": "Elena",
             "lastName": "Ortega",
@@ -344,7 +344,7 @@
         {
             
             "id": 17,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"false",
             "name": "Miguel",
             "lastName": "Silva",
@@ -361,7 +361,7 @@
         {
             
             "id": 18,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"false",
             "name": "Sara",
             "lastName": "Gutiérrez",
@@ -378,7 +378,7 @@
         {
             
             "id": 19,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"true",
             "name": "Mario",
             "lastName": "Fernández",
@@ -395,7 +395,7 @@
         {
             
             "id": 20,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"false",
             "name": "Julia",
             "lastName": "Martínez",
@@ -412,7 +412,7 @@
         {
             
             "id": 21,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"true",
             "name": "Pedro",
             "lastName": "García",
@@ -429,7 +429,7 @@
         {
             
             "id": 22,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"true",
             "name": "Luis",
             "lastName": "Sánchez",
@@ -446,7 +446,7 @@
         {
             
             "id": 23,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"false",
             "name": "Sofía",
             "lastName": "Martínez",
@@ -463,7 +463,7 @@
         {
             
             "id": 24,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"false",
             "name": "Carlos",
             "lastName": "López",
@@ -480,7 +480,7 @@
         {
             
             "id": 25,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"true",
             "name": "Isabel",
             "lastName": "Fernández",
@@ -497,7 +497,7 @@
         {
             
             "id": 26,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"false",
             "name": "David",
             "lastName": "Ramírez",
@@ -514,7 +514,7 @@
         {
             
             "id": 27,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"false",
             "name": "Fernanda",
             "lastName": "Gómez",
@@ -531,7 +531,7 @@
         {
             
             "id": 28,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"true",
             "name": "Jorge",
             "lastName": "Díaz",
@@ -548,7 +548,7 @@
         {
             
             "id": 29,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"false",
             "name": "Seba",
             "lastName": "Sánchez",
@@ -565,7 +565,7 @@
         {
             
             "id": 30,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"false",
             "name": "Roberto",
             "lastName": "Hernández",
@@ -582,7 +582,7 @@
         {
             
             "id": 31,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"true",
             "name": "Luis",
             "lastName": "Gómez",
@@ -599,7 +599,7 @@
         {
             
             "id": 32,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"false",
             "name": "Franco",
             "lastName": "Gutiérrez",
@@ -616,7 +616,7 @@
         {
             
             "id": 33,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"false",
             "name": "Pedro",
             "lastName": "Sánchez",
@@ -633,7 +633,7 @@
         {
             
             "id": 34,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"true",
             "name": "María",
             "lastName": "Pérez",
@@ -650,7 +650,7 @@
         {
             
             "id": 35,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"true",
             "name": "Javier",
             "lastName": "López",
@@ -667,7 +667,7 @@
         {
             
             "id": 36,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"true",
             "name": "Julio",
             "lastName": "Fernández",
@@ -684,7 +684,7 @@
         {
             
             "id": 37,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"true",
             "name": "Carlos",
             "lastName": "Martínez",
@@ -701,7 +701,7 @@
         {
             
             "id": 38,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"true",
             "name": "Luisa",
             "lastName": "Díaz",
@@ -718,7 +718,7 @@
         {
             
             "id": 39,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"true",
             "name": "David",
             "lastName": "Ramírez",
@@ -735,7 +735,7 @@
         {
             
             "id": 40,
-            "description": "Comprometido y apasionado por brindar soluciones de alta calidad, con experiencia en el campo. Ofrezco dedicación total para garantizar la satisfacción del cliente. Mi objetivo es superar las expectativas, entregando resultados excepcionales a tiempo y a un precio competitivo.",
+            "description": "Comprometido y apasionado por brindar soluciones de calidad, con experiencia en el campo. Ofrezco dedicación para garantizar la satisfacción del cliente. Mi objetivo es entregar resultados excepcionales a tiempo y a un precio competitivo.",
               "available":"true",
             "name": "Laura",
             "lastName": "Gómez",
