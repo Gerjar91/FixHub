@@ -1,5 +1,6 @@
 import React from 'react'
 import { View, StyleSheet, Button, Text, Image, TouchableOpacity } from 'react-native'
+import { Linking } from 'react-native';
 
 function DetailWorker({ setModalVisible, dataWorker }: any) {
     const toggleModal = () => {
@@ -20,6 +21,25 @@ function DetailWorker({ setModalVisible, dataWorker }: any) {
         return stars;
     };
 
+
+
+
+    const openWhatsAppChat = () => {
+        const phoneNumber = '+5492615911334'; // Reemplaza con el número de teléfono al que quieres enviar el mensaje.
+        const message = `Hola, ¿cómo estás? vi tu publicacion en FixHub , necesito contratar un ${dataWorker.job}`; // Reemplaza con el mensaje que deseas enviar.
+      
+        const whatsappUrl = `whatsapp://send?phone=${phoneNumber}&text=${message}`;
+      
+        Linking.canOpenURL(whatsappUrl)
+          .then((supported) => {
+            if (!supported) {
+              console.error("No se puede abrir WhatsApp. Asegúrate de tener la aplicación instalada.");
+            } else {
+              return Linking.openURL(whatsappUrl);
+            }
+          })
+          .catch((error) => console.error("Error al intentar abrir WhatsApp:", error));
+      };
     return (
         <View style={styles.container}>
             <TouchableOpacity onPress={toggleModal} style={styles.buttonClose}>
@@ -67,8 +87,9 @@ function DetailWorker({ setModalVisible, dataWorker }: any) {
 
             <View style={styles.horizontalLine} />
             <View style={{ flexDirection: "row", justifyContent: "center", width: "100%", alignItems: "flex-end", alignContent: "center" }}>
-                <TouchableOpacity onPress={()=>{}} style={styles.buttoncontact}>
-                    <Text style={{ color: "white", fontSize: 18 }}>📞 Contactar </Text>
+                <TouchableOpacity onPress={openWhatsAppChat} style={styles.buttoncontact}>
+                <Image source={require("../assets/iconoWhatsap.png")} style={styles.iconImage} />
+                    <Text style={{ color: "white", fontSize: 18 }}>  Contactar </Text>
                 </TouchableOpacity>
 
             </View>
@@ -103,6 +124,10 @@ const styles = StyleSheet.create({
         width: 1000,
         height: "90%",
 
+    },
+    iconImage:{
+        width:30,
+        height:30
     },
     title: {
         color: "#351A81",
@@ -142,7 +167,8 @@ const styles = StyleSheet.create({
         alignItems: "center",
         borderRadius: 30,
         marginTop: 15,
-        elevation:4
+        elevation:4,
+        flexDirection:"row"
     }
 
 });

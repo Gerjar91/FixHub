@@ -8,7 +8,7 @@
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/FixHubSplash.png",
-      "resizeMode":"contain",
+      "resizeMode": "contain",
       "backgroundColor": "#351A81"
     },
     "assetBundlePatterns": [
@@ -21,10 +21,22 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.gerjar.FixHub"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2926c60e-0c7a-4832-b73f-a331767e09b3"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/2926c60e-0c7a-4832-b73f-a331767e09b3"
     }
   }
 }

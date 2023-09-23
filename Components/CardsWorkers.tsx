@@ -23,6 +23,7 @@ function CardsWorkers({ dataWorker , setModalVisible,setDataWorker}: any) {
         setDataWorker(dataWorker)
       };
 
+      console.log(dataWorker.available);
     return (
         <SafeAreaView style={styles.containerPage}>
             <TouchableOpacity
@@ -32,7 +33,12 @@ function CardsWorkers({ dataWorker , setModalVisible,setDataWorker}: any) {
                     <Image source={{ uri: dataWorker.image }} style={styles.carouselimage} />
 
                     <View style={{ flexDirection: "column", justifyContent: "flex-end" }}>
-                        <Text style={styles.title}>{dataWorker.name} {dataWorker.lastName}</Text>
+                        <View style={{flexDirection:"row", alignItems:"flex-end", justifyContent:"space-between"}}>
+
+                        <Text style={styles.title}>{dataWorker.name} {dataWorker.lastName} </Text>
+                        {dataWorker.available === "true"?  (  <Text style={{fontSize:12}}>🟢  24/7</Text>):null}
+                    
+                        </View>
                         <View style={styles.horizontalLine} />
                         <View style={{ flexDirection: "row", justifyContent: "space-between", alignItems: "center", width: 220 }}>
 

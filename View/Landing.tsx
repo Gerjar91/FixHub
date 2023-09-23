@@ -3,6 +3,8 @@ import { Image, SafeAreaView, View, StyleSheet, Text, TouchableOpacity } from 'r
 import { LinearGradient } from 'expo-linear-gradient';
 
 function Landing({ navigation }: any) {
+
+
     return (
         <SafeAreaView style={styles.containerPage}>
             <LinearGradient
